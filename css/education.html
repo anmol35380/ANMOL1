@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body style="background-image: url(../images/yannis-h-uaPaEM7MiQQ-unsplash.jpg)" height="100%" width="100%"  >
+    <button style="font-weight: 600;">DONATE NOW</button>
+    <div class="Education bare">
+        <h1>Your support is crucial in ensuring education for all</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 formSection">
+                <p style="color:#b2a4ff;">After a gap of two years, schools have reopened. Watching children go back to
+                    school, meet their friends, share lunch and play together has been a moment to rejoice. But this is
+                    just one side of the fence.</p>
+                <p style="color: #ddffbb;">The pandemic affected every child, but some suffered more than others.
+                    Children from socio-economically weaker sections, tribal belts, remote rural areas and urban slums,
+                    became the worst sufferers. When the schools were shut, only about 28% of children living in rural
+                    areas and slums had access to digital learning. Education came to a halt for lakhs of children, who
+                    had already been struggling in the pre-pandemic world.</p>
+                <p style="color:#ddffbb;">Smile Foundation, through its ‘Shiksha Na Ruke’ initiative, has been helping
+                    children from difficult circumstances get back to school and restart their lives positively, and
+                    with hope. At present, we are directly providing education to over 100,000 children in 23 states of
+                    India.</p>
+                <p style="color:#ddffbb">Despite all the odds, these young champions have not given up and continue to
+                    dream and work hard. With your support, we can fuel their dreams with accessible and quality
+                    education. Join hands with us to ensure a happy and safe childhood for all!</p>
+            </div>
+
+            <div class="col-md-5" style="border: 2px solid #8bc53f; padding:15px 10px;height: fit-content;">
+                <form method="post" wire:submit.prevent="submit" enctype="multipart/form-data" class="donation-form">
+                    <div style="padding: 15px; text-align:center;">
+                        <h3 class="section-title text-center" style="margin-top: 2px; color: #ddffbb;">
+                            SUPPORT THE CAUSE</h3>
+                        <div class="supportblock">
+
+                            <ul>
+                                <li style="color: #8bc53f;">
+                                    Make a difference
+                                </li>
+                            </ul>
+
+
+
+                            <div class="ruppes_select">
+                                <ul>
+                                    <li style="display: inline-block">
+                                        <input type="radio" id="amount_option_1500" name="radio-group" value="1500"
+                                            wire:model="amount">
+                                        <label for="amount_option_1500"><i class="fa fa-inr"></i>&nbsp; 1500</label>
+                                    </li>
+                                    <li style="display: inline-block">
+                                        <input type="radio" id="amount_option_3000" name="radio-group" value="3000"
+                                            wire:model="amount">
+                                        <label for="amount_option_3000"><i class="fa fa-inr"></i>&nbsp;3000</label>
+                                    </li>
+                                    <li style="display: inline-block">
+                                        <input type="radio" id="amount_option_6000" name="radio-group" value="6000"
+                                            wire:model="amount">
+                                        <label for="amount_option_6000"><i class="fa fa-inr"></i>&nbsp;6000</label>
+                                    </li>
+                                    <li style="display: inline-block">
+                                        <input type="radio" id="amount_option_12000" name="radio-group" value="12000"
+                                            wire:model="amount">
+                                        <label for="amount_option_12000"><i class="fa fa-inr"></i>&nbsp;12000</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="text-center pt50">
+
+                                    <div class="eduCld"style="color: #8bc53f;" DONATION WILL HELP FOR THE EDUCATION OF 1 CHILD FOR 3
+                                        MONTHS
+                                    </div>
+                                    <div class="cldImgs">
+                                        <img src="/template-assets/9/images/childs.png" alt="">
+                                    </div>
+                                    <div class="amtRps">
+                                        <div class="input-container">
+                                            <span class="amtRpsIcons"><i class="fa fa-inr"></i></span>
+                                            <input class="form-control" type="text" id="amount"
+                                                placeholder="Other Amount" wire:model.lazy="amount"
+                                                style="padding-left: 20px;" fdprocessedid="xtv8q">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center"
+                            style="margin-top: 10px; padding-right:0px !important; padding-left:0px !important;">
+                            <button type="button" class="btn btn-primary btn-block" wire:click="stepIncrease(1)"
+                                fdprocessedid="1g98js">DONATE NOW
+                            </button>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="notesfront"style="color: #8bc53f;">"YOUR CONTRIBUTIONS ARE ELIGIBLE FOR
+                                UPTO 50% TAX BENEFIT UNDER SECTION 80G AS SMILE FOUNDATION
+                                IS REGISTERED AS NON PROFIT ORGANIZATION" <br>
+                                <b>PAN:</b> AACTS7973G | <b>80G NUMBER:</b> AACTS7973GF20210
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
